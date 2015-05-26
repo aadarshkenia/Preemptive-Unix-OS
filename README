@@ -6,9 +6,6 @@ Kavana Anand (109929741)
 Shriya Gupta (110168559)
 
 
-Borrowed some code (https://github.com/r0nk/r0nix/blob/9fa96b37d313a47bfcae907389b65e5482405327/drivers/keyboard.c and https://github.com/r0nk/r0nix/blob/7ff748919193ed54af1f70b671580e8b3f85b81e/include/keyboard.h) from https://github.com/r0nk/r0nix/ (while maintaing the terms of the GPL v2 license) and referred to tutorial at http://www.jamesmolloy.co.uk/tutorial_html/ with permission of copyright holder.
-
-Also referred to http://wiki.osdev.org/ .
 
 NOTE - While testing, please wait for shell prompt ($sbush) to start typing.
 

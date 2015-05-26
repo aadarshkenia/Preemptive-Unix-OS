@@ -1,0 +1,639 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+-exclude	Makefile	/^	tar -czvf $(USER).tgz --exclude=.empty --exclude=.*.sw? --exclude=*~ LICENSE README Makefile linker.script sys bin crt libc newfs include $(ROOTFS) $(USER).img$/;"	m
+-exclude	kkavanaanand/Makefile	/^	tar -czvf $(USER).tgz --exclude=.empty --exclude=.*.sw? --exclude=*~ LICENSE Makefile bin crt libc include $(ROOTFS)$/;"	m
+AR	Makefile	/^AR=ar$/;"	m
+AR	kkavanaanand/Makefile	/^AR=ar$/;"	m
+AS	Makefile	/^AS=as$/;"	m
+AS	kkavanaanand/Makefile	/^AS=as$/;"	m
+BACKSPACE	sys/kbd.c	7;"	d	file:
+BINS	Makefile	/^BINS:=$(addprefix $(ROOTFS)\/,$(wildcard bin\/*))$/;"	m
+BINS	kkavanaanand/Makefile	/^BINS:=$(addprefix $(ROOTFS)\/,$(wildcard bin\/*))$/;"	m
+BIN_SRCS	Makefile	/^BIN_SRCS:=$(shell find bin\/\\* -name \\*.c)$/;"	m
+BIN_SRCS	kkavanaanand/Makefile	/^BIN_SRCS:=$(wildcard bin\/*\/*.c)$/;"	m
+BIT_PRESENT	include/sys/page.h	39;"	d
+BIT_RW	include/sys/page.h	40;"	d
+BIT_USER	include/sys/page.h	41;"	d
+C	sys/gdt.c	10;"	d	file:
+CC	Makefile	/^CC=gcc$/;"	m
+CC	kkavanaanand/Makefile	/^CC=gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS=-O1 -std=c99 -D__thread= -Wall -Werror -nostdinc -Iinclude -msoft-float -mno-sse -mno-red-zone -fno-builtin -fPIC -march=amdfam10 -g3$/;"	m
+CFLAGS	kkavanaanand/Makefile	/^CFLAGS=-O1 -std=c99 -D__thread= -Wall -Werror -nostdinc -Iinclude -msoft-float -mno-sse -mno-red-zone -fno-builtin -fPIC -march=amdfam10 -g3$/;"	m
+CHECK_PRESENT	include/sys/page.h	43;"	d
+CHECK_RW	include/sys/page.h	44;"	d
+CHECK_USER	include/sys/page.h	45;"	d
+COMMAND_ARGUMENT_LENGTH	kkavanaanand/bin/shell/shell.c	7;"	d	file:
+COMMAND_STRING_LENGTH	kkavanaanand/bin/shell/shell.c	10;"	d	file:
+CRT_SRCS	Makefile	/^CRT_SRCS:=$(shell find crt\/ -name \\*.c -o -name \\*.s)$/;"	m
+CTRL_CODE	sys/kbd.c	39;"	d	file:
+D	sys/gdt.c	17;"	d	file:
+DPL0	sys/gdt.c	11;"	d	file:
+DPL1	sys/gdt.c	12;"	d	file:
+DPL2	sys/gdt.c	13;"	d	file:
+DPL3	sys/gdt.c	14;"	d	file:
+ELF_P_hdr	include/sys/elf.h	/^struct ELF_P_hdr {$/;"	s
+ELF_S_hdr	include/sys/elf.h	/^struct ELF_S_hdr {$/;"	s
+ELF_Str	include/sys/elf.h	/^struct ELF_Str {$/;"	s
+ELF_hdr	include/sys/elf.h	/^struct ELF_hdr {$/;"	s
+ENTER	sys/kbd.c	9;"	d	file:
+ESC	sys/kbd.c	6;"	d	file:
+FILE_CONTENT_SIZE	include/sys/tarfs.h	27;"	d
+GDT_CS	sys/gdt.c	7;"	d	file:
+GDT_DS	sys/gdt.c	8;"	d	file:
+INCLUDES	Makefile	/^INCLUDES:=$(shell find include\/ -type f -name \\*.h)$/;"	m
+INITIAL_STACK_SIZE	sys/main.c	8;"	d	file:
+INVALIDATE_TLB	include/sys/page.h	51;"	d
+KADDR	include/sys/page.h	23;"	d
+KBD_H	include/sys/kbd.h	2;"	d
+KCTRL	sys/kbd.c	36;"	d	file:
+KDEL	sys/kbd.c	33;"	d	file:
+KDOWN	sys/kbd.c	30;"	d	file:
+KEND	sys/kbd.c	29;"	d	file:
+KERNBASE	include/sys/page.h	16;"	d
+KERNEL_END	include/sys/page.h	20;"	d
+KERNEL_START	include/sys/page.h	19;"	d
+KERN_SRCS	Makefile	/^KERN_SRCS:=$(shell find sys\/ -name \\*.c -o -name \\*.s)$/;"	m
+KEY_RELEASED	sys/kbd.c	37;"	d	file:
+KF1	sys/kbd.c	12;"	d	file:
+KF10	sys/kbd.c	21;"	d	file:
+KF11	sys/kbd.c	22;"	d	file:
+KF12	sys/kbd.c	23;"	d	file:
+KF2	sys/kbd.c	13;"	d	file:
+KF3	sys/kbd.c	14;"	d	file:
+KF4	sys/kbd.c	15;"	d	file:
+KF5	sys/kbd.c	16;"	d	file:
+KF6	sys/kbd.c	17;"	d	file:
+KF7	sys/kbd.c	18;"	d	file:
+KF8	sys/kbd.c	19;"	d	file:
+KF9	sys/kbd.c	20;"	d	file:
+KHOME	sys/kbd.c	24;"	d	file:
+KINS	sys/kbd.c	32;"	d	file:
+KLEFT	sys/kbd.c	27;"	d	file:
+KPGDN	sys/kbd.c	31;"	d	file:
+KPGUP	sys/kbd.c	26;"	d	file:
+KRIGHT	sys/kbd.c	28;"	d	file:
+KRLEFT_SHIFT	sys/kbd.c	34;"	d	file:
+KRRIGHT_SHIFT	sys/kbd.c	35;"	d	file:
+KUP	sys/kbd.c	25;"	d	file:
+L	sys/gdt.c	16;"	d	file:
+LD	Makefile	/^LD=ld$/;"	m
+LD	kkavanaanand/Makefile	/^LD=ld$/;"	m
+LDLAGS	Makefile	/^LDLAGS=-nostdlib$/;"	m
+LDLAGS	kkavanaanand/Makefile	/^LDLAGS=-nostdlib$/;"	m
+LIBC_SRCS	Makefile	/^LIBC_SRCS:=$(shell find libc\/ -name \\*.c -o -name \\*.s)$/;"	m
+LIBC_SRCS	kkavanaanand/Makefile	/^LIBC_SRCS:=$(wildcard libc\/*.c libc\/*\/*.c)$/;"	m
+LOAD_CR3	include/sys/page.h	47;"	d
+MAXIMUM_SIZE	kkavanaanand/libc/printf.c	27;"	d	file:
+MAXIMUM_SIZE	libc/printf.c	5;"	d	file:
+MAXIMUM_SIZE	printf_backup.c	5;"	d	file:
+MAXIMUM_SIZE	sys/printf.c	5;"	d	file:
+MAX_GDT	sys/gdt.c	5;"	d	file:
+MAX_IDT	sys/idt.c	11;"	d	file:
+NAME_MAX	include/stdlib.h	45;"	d
+NAME_MAX	kkavanaanand/include/stdlib.h	52;"	d
+NEWLINE	sys/kbd.c	11;"	d	file:
+NO_OF_ARGUMENTS	kkavanaanand/bin/shell/shell.c	6;"	d	file:
+NO_OF_COMMANDS	kkavanaanand/bin/shell/shell.c	5;"	d	file:
+NO_OF_PATHS	kkavanaanand/bin/shell/shell.c	8;"	d	file:
+NO_OF_TABLE_ENTRIES	include/sys/page.h	7;"	d
+NULL	include/sys/defs.h	4;"	d
+NULL	kkavanaanand/include/sys/defs.h	4;"	d
+Node	kkavanaanand/libc/malloc.c	/^struct Node {$/;"	s	file:
+Node	libc/malloc.c	/^struct Node {$/;"	s	file:
+O_CREAT	include/stdlib.h	/^enum { O_RDONLY = 0, O_WRONLY = 1, O_RDWR = 2, O_CREAT = 0x40, O_DIRECTORY = 0x10000 };$/;"	e	enum:__anon3
+O_CREAT	kkavanaanand/include/stdlib.h	/^enum { O_RDONLY = 0, O_WRONLY = 1, O_RDWR = 2, O_CREAT = 0x40, O_DIRECTORY = 0x10000 };$/;"	e	enum:__anon1
+O_DIRECTORY	include/stdlib.h	/^enum { O_RDONLY = 0, O_WRONLY = 1, O_RDWR = 2, O_CREAT = 0x40, O_DIRECTORY = 0x10000 };$/;"	e	enum:__anon3
+O_DIRECTORY	kkavanaanand/include/stdlib.h	/^enum { O_RDONLY = 0, O_WRONLY = 1, O_RDWR = 2, O_CREAT = 0x40, O_DIRECTORY = 0x10000 };$/;"	e	enum:__anon1
+O_RDONLY	include/stdlib.h	/^enum { O_RDONLY = 0, O_WRONLY = 1, O_RDWR = 2, O_CREAT = 0x40, O_DIRECTORY = 0x10000 };$/;"	e	enum:__anon3
+O_RDONLY	kkavanaanand/include/stdlib.h	/^enum { O_RDONLY = 0, O_WRONLY = 1, O_RDWR = 2, O_CREAT = 0x40, O_DIRECTORY = 0x10000 };$/;"	e	enum:__anon1
+O_RDWR	include/stdlib.h	/^enum { O_RDONLY = 0, O_WRONLY = 1, O_RDWR = 2, O_CREAT = 0x40, O_DIRECTORY = 0x10000 };$/;"	e	enum:__anon3
+O_RDWR	kkavanaanand/include/stdlib.h	/^enum { O_RDONLY = 0, O_WRONLY = 1, O_RDWR = 2, O_CREAT = 0x40, O_DIRECTORY = 0x10000 };$/;"	e	enum:__anon1
+O_WRONLY	include/stdlib.h	/^enum { O_RDONLY = 0, O_WRONLY = 1, O_RDWR = 2, O_CREAT = 0x40, O_DIRECTORY = 0x10000 };$/;"	e	enum:__anon3
+O_WRONLY	kkavanaanand/include/stdlib.h	/^enum { O_RDONLY = 0, O_WRONLY = 1, O_RDWR = 2, O_CREAT = 0x40, O_DIRECTORY = 0x10000 };$/;"	e	enum:__anon1
+P	sys/gdt.c	15;"	d	file:
+PADDR	include/sys/page.h	24;"	d
+PAGEOFF	include/sys/page.h	36;"	d
+PAGE_SHIFT	include/sys/page.h	6;"	d
+PAGE_SIZE	include/sys/page.h	5;"	d
+PCB	include/sys/structs.h	/^struct PCB {$/;"	s
+PDEOFF	include/sys/page.h	34;"	d
+PDPEOFF	include/sys/page.h	33;"	d
+PHYSBASE	include/sys/page.h	17;"	d
+PHYSFREE	include/sys/page.h	18;"	d
+PML4OFF	include/sys/page.h	32;"	d
+PORTS_IO_H	include/sys/ports_io.h	2;"	d
+PS1PROMPT_LENGTH	kkavanaanand/bin/shell/shell.c	9;"	d	file:
+PTEOFF	include/sys/page.h	35;"	d
+READ_CR2	include/sys/page.h	49;"	d
+READ_CR3	include/sys/page.h	48;"	d
+RETURN	sys/kbd.c	10;"	d	file:
+ROOTBIN	Makefile	/^ROOTBIN=$(ROOTFS)\/bin$/;"	m
+ROOTBIN	kkavanaanand/Makefile	/^ROOTBIN=$(ROOTFS)\/bin$/;"	m
+ROOTBOOT	Makefile	/^ROOTBOOT=$(ROOTFS)\/boot$/;"	m
+ROOTFS	Makefile	/^ROOTFS=rootfs$/;"	m
+ROOTFS	kkavanaanand/Makefile	/^ROOTFS=rootfs$/;"	m
+ROOTLIB	Makefile	/^ROOTLIB=$(ROOTFS)\/lib$/;"	m
+ROOTLIB	kkavanaanand/Makefile	/^ROOTLIB=$(ROOTFS)\/lib$/;"	m
+Regs	include/sys/structs.h	/^struct Regs {$/;"	s
+SEEK_CUR	include/stdlib.h	/^enum { SEEK_SET = 0, SEEK_CUR = 1, SEEK_END = 2 };$/;"	e	enum:__anon4
+SEEK_CUR	kkavanaanand/include/stdlib.h	/^enum { SEEK_SET = 0, SEEK_CUR = 1, SEEK_END = 2 };$/;"	e	enum:__anon2
+SEEK_END	include/stdlib.h	/^enum { SEEK_SET = 0, SEEK_CUR = 1, SEEK_END = 2 };$/;"	e	enum:__anon4
+SEEK_END	kkavanaanand/include/stdlib.h	/^enum { SEEK_SET = 0, SEEK_CUR = 1, SEEK_END = 2 };$/;"	e	enum:__anon2
+SEEK_SET	include/stdlib.h	/^enum { SEEK_SET = 0, SEEK_CUR = 1, SEEK_END = 2 };$/;"	e	enum:__anon4
+SEEK_SET	kkavanaanand/include/stdlib.h	/^enum { SEEK_SET = 0, SEEK_CUR = 1, SEEK_END = 2 };$/;"	e	enum:__anon2
+SHELL	Makefile	/^SHELL=\/bin\/sh$/;"	m
+SHIFT_CODE	sys/kbd.c	38;"	d	file:
+SUBMITTO	Makefile	/^SUBMITTO:=~mferdman\/cse506-submit\/$/;"	m
+SUBMITTO	kkavanaanand/Makefile	/^SUBMITTO:=~mferdman\/cse506-submit\/$/;"	m
+SYS_alarm	include/sys/syscall.h	12;"	d
+SYS_alarm	kkavanaanand/include/sys/syscall.h	12;"	d
+SYS_brk	include/sys/syscall.h	5;"	d
+SYS_brk	kkavanaanand/include/sys/syscall.h	5;"	d
+SYS_chdir	include/sys/syscall.h	14;"	d
+SYS_chdir	kkavanaanand/include/sys/syscall.h	14;"	d
+SYS_close	include/sys/syscall.h	19;"	d
+SYS_close	kkavanaanand/include/sys/syscall.h	19;"	d
+SYS_dup	include/sys/syscall.h	21;"	d
+SYS_dup	kkavanaanand/include/sys/syscall.h	21;"	d
+SYS_dup2	include/sys/syscall.h	22;"	d
+SYS_dup2	kkavanaanand/include/sys/syscall.h	22;"	d
+SYS_execve	include/sys/syscall.h	9;"	d
+SYS_execve	kkavanaanand/include/sys/syscall.h	9;"	d
+SYS_exit	include/sys/syscall.h	4;"	d
+SYS_exit	kkavanaanand/include/sys/syscall.h	4;"	d
+SYS_fork	include/sys/syscall.h	6;"	d
+SYS_fork	kkavanaanand/include/sys/syscall.h	6;"	d
+SYS_getcwd	include/sys/syscall.h	13;"	d
+SYS_getcwd	kkavanaanand/include/sys/syscall.h	13;"	d
+SYS_getdents	include/sys/syscall.h	23;"	d
+SYS_getdents	kkavanaanand/include/sys/syscall.h	23;"	d
+SYS_getpid	include/sys/syscall.h	7;"	d
+SYS_getpid	kkavanaanand/include/sys/syscall.h	7;"	d
+SYS_getppid	include/sys/syscall.h	8;"	d
+SYS_getppid	kkavanaanand/include/sys/syscall.h	8;"	d
+SYS_lseek	include/sys/syscall.h	18;"	d
+SYS_lseek	kkavanaanand/include/sys/syscall.h	18;"	d
+SYS_nanosleep	include/sys/syscall.h	11;"	d
+SYS_nanosleep	kkavanaanand/include/sys/syscall.h	11;"	d
+SYS_open	include/sys/syscall.h	15;"	d
+SYS_open	kkavanaanand/include/sys/syscall.h	15;"	d
+SYS_pipe	include/sys/syscall.h	20;"	d
+SYS_pipe	kkavanaanand/include/sys/syscall.h	20;"	d
+SYS_read	include/sys/syscall.h	16;"	d
+SYS_read	kkavanaanand/include/sys/syscall.h	16;"	d
+SYS_wait4	include/sys/syscall.h	10;"	d
+SYS_wait4	kkavanaanand/include/sys/syscall.h	10;"	d
+SYS_write	include/sys/syscall.h	17;"	d
+SYS_write	kkavanaanand/include/sys/syscall.h	17;"	d
+TAB	sys/kbd.c	8;"	d	file:
+TIMER_H	include/sys/timer.h	2;"	d
+UHEAPLIMIT	include/sys/page.h	29;"	d
+UHEAPSTART	include/sys/page.h	28;"	d
+USTACKLIMIT	include/sys/page.h	27;"	d
+USTACKTOP	include/sys/page.h	26;"	d
+W	sys/gdt.c	18;"	d	file:
+_DEFS_H	include/sys/defs.h	2;"	d
+_DEFS_H	kkavanaanand/include/sys/defs.h	2;"	d
+_ELF_H	include/sys/elf.h	2;"	d
+_GDT_H	include/sys/gdt.h	2;"	d
+_STDARG_H	include/stdarg.h	2;"	d
+_STDARG_H	kkavanaanand/include/stdarg.h	2;"	d
+_STDIO_H	include/stdio.h	2;"	d
+_STDIO_H	kkavanaanand/include/stdio.h	2;"	d
+_STDLIB_H	include/stdlib.h	2;"	d
+_STDLIB_H	kkavanaanand/include/stdlib.h	2;"	d
+_STRING_H_	include/string.h	2;"	d
+_STRING_H_	kkavanaanand/include/string.h	2;"	d
+_SYSCALL_H	include/syscall.h	2;"	d
+_SYSCALL_H	kkavanaanand/include/syscall.h	2;"	d
+_TARFS_H	include/sys/tarfs.h	2;"	d
+__PAGE_H	include/sys/page.h	2;"	d
+__PROCESS_H__	include/sys/process.h	2;"	d
+__SBUNIX_H	include/sys/sbunix.h	2;"	d
+__STRUCTS_H	include/sys/structs.h	2;"	d
+__SYS_SYSCALL_H	include/sys/syscall.h	2;"	d
+__SYS_SYSCALL_H	kkavanaanand/include/sys/syscall.h	2;"	d
+_start	crt/crt1.c	/^void _start(int stacktop) $/;"	f
+_start	kkavanaanand/crt/crt1.c	/^void _start(void) {$/;"	f
+_x86_64_asm_lgdt	sys/gdt.s	/^_x86_64_asm_lgdt:$/;"	l
+_x86_64_asm_lidt	sys/idt.s	/^_x86_64_asm_lidt:$/;"	l
+addr	sys/gdt.c	/^	uint64_t addr;$/;"	m	struct:gdtr_t	file:
+alarm	kkavanaanand/libc/alarm.c	/^unsigned int alarm(unsigned int seconds)$/;"	f
+alarm	libc/alarm.c	/^unsigned int alarm(unsigned int seconds)$/;"	f
+alignDown	sys/page.c	/^void * alignDown(void * address)$/;"	f
+alignFileUp	sys/tarfs.c	/^uint64_t alignFileUp(uint64_t size)$/;"	f
+alignUp	sys/page.c	/^void * alignUp(void * address)$/;"	f
+alwaysZero	sys/idt.c	/^	unsigned char alwaysZero;$/;"	m	struct:idt_entry	file:
+asciiNonShift	sys/kbd.c	/^static char asciiNonShift[] = {$/;"	v	file:
+asciiShift	sys/kbd.c	/^static char asciiShift[] = {$/;"	v	file:
+atoi	sys/tarfs.c	/^uint64_t atoi(char *str)$/;"	f
+base	sys/idt.c	/^	uint64_t base;$/;"	m	struct:idt_pointer	file:
+boot	sys/main.c	/^void boot(void)$/;"	f
+brk	kkavanaanand/libc/malloc.c	/^int brk(void *end_data_segment)$/;"	f
+brk	libc/malloc.c	/^int brk(void *end_data_segment)$/;"	f
+build_process_address_space	sys/process.c	/^void build_process_address_space(struct PCB* process)$/;"	f
+bump_alloc	sys/page.c	/^static void * bump_alloc(int size)$/;"	f	file:
+chdir	kkavanaanand/libc/chdir.c	/^int chdir(const char * path)$/;"	f
+chdir	libc/chdir.c	/^int chdir(const char * path)$/;"	f
+checksum	include/sys/tarfs.h	/^	char checksum[8];$/;"	m	struct:posix_header_ustar
+close	kkavanaanand/libc/close.c	/^int close(int fd)$/;"	f
+close	libc/close.c	/^int close(int fd)$/;"	f
+closedir	kkavanaanand/libc/dir.c	/^int closedir(void *dir){$/;"	f
+convert	kkavanaanand/libc/printf.c	/^char *convert(unsigned int inputNumber, int base) {$/;"	f
+convert	libc/printf.c	/^char *convert(unsigned int inputNumber, int base) {$/;"	f
+convert	printf_backup.c	/^char *convert(unsigned int inputNumber, int base) {$/;"	f
+convert	sys/printf.c	/^char *convert(unsigned int inputNumber, int base) {$/;"	f
+convertOctalToDecimal	sys/tarfs.c	/^uint64_t convertOctalToDecimal(uint64_t octalNum){$/;"	f
+count	include/sys/structs.h	/^	int		count; \/\/No of vma s$/;"	m	struct:mm_struct
+cr3	include/sys/structs.h	/^	uint64_t *cr3;\/\/Needed? Confirm.$/;"	m	struct:PCB
+cs	include/sys/irq_isr_common.h	/^    uint64_t rip, cs, rflags, userrsp, ss;   $/;"	m	struct:regs
+ctrl_down	sys/kbd.c	/^int ctrl_down;$/;"	v
+d_ino	include/stdlib.h	/^	long d_ino;$/;"	m	struct:dirent
+d_ino	kkavanaanand/include/stdlib.h	/^	long d_ino;$/;"	m	struct:dirent
+d_ino	kkavanaanand/libc/dir.c	/^    long d_ino;$/;"	m	struct:direct	file:
+d_name	include/stdlib.h	/^	char d_name [NAME_MAX+1];$/;"	m	struct:dirent
+d_name	kkavanaanand/include/stdlib.h	/^	char d_name [NAME_MAX+1];$/;"	m	struct:dirent
+d_name	kkavanaanand/libc/dir.c	/^    char d_name [NAME_MAX+1];$/;"	m	struct:direct	file:
+d_namelen	kkavanaanand/include/stdlib.h	/^	unsigned short d_namelen;$/;"	m	struct:dirent
+d_namelen	kkavanaanand/libc/dir.c	/^    uint16_t d_namelen;$/;"	m	struct:direct	file:
+d_off	include/stdlib.h	/^	off_t d_off;$/;"	m	struct:dirent
+d_off	kkavanaanand/include/stdlib.h	/^	off_t d_off;$/;"	m	struct:dirent
+d_off	kkavanaanand/libc/dir.c	/^    off_t d_off;$/;"	m	struct:direct	file:
+d_reclen	include/stdlib.h	/^	unsigned short d_reclen;$/;"	m	struct:dirent
+d_reclen	kkavanaanand/include/stdlib.h	/^	unsigned short d_reclen;$/;"	m	struct:dirent
+d_reclen	kkavanaanand/libc/dir.c	/^    unsigned short d_reclen;$/;"	m	struct:direct	file:
+devmajor	include/sys/tarfs.h	/^	char devmajor[8];$/;"	m	struct:posix_header_ustar
+devminor	include/sys/tarfs.h	/^	char devminor[8];$/;"	m	struct:posix_header_ustar
+dirEntry	kkavanaanand/libc/dir.c	/^struct dirent dirEntry;$/;"	v	typeref:struct:dirent
+dirPtr	kkavanaanand/include/stdlib.h	/^	struct dirent dirPtr;$/;"	m	struct:directory	typeref:struct:directory::dirent
+direct	kkavanaanand/libc/dir.c	/^struct  direct$/;"	s	file:
+directory	kkavanaanand/include/stdlib.h	/^struct directory$/;"	s
+dirent	include/stdlib.h	/^struct dirent$/;"	s
+dirent	kkavanaanand/include/stdlib.h	/^struct dirent$/;"	s
+dup	kkavanaanand/libc/dup.c	/^int dup(int old_fd)$/;"	f
+dup	libc/dup.c	/^int dup(int old_fd)$/;"	f
+dup2	kkavanaanand/libc/dup2.c	/^int dup2(int old_fd, int new_fd)$/;"	f
+dup2	libc/dup2.c	/^int dup2(int old_fd, int new_fd)$/;"	f
+e_ehsize	include/sys/elf.h	/^	uint16_t	e_ehsize;$/;"	m	struct:ELF_hdr
+e_entry	include/sys/elf.h	/^	uint64_t	e_entry;$/;"	m	struct:ELF_hdr
+e_flags	include/sys/elf.h	/^	uint32_t	e_flags;$/;"	m	struct:ELF_hdr
+e_ident	include/sys/elf.h	/^	unsigned char	e_ident[16];$/;"	m	struct:ELF_hdr
+e_machine	include/sys/elf.h	/^	uint16_t	e_machine;$/;"	m	struct:ELF_hdr
+e_phentsize	include/sys/elf.h	/^	uint16_t	e_phentsize;$/;"	m	struct:ELF_hdr
+e_phnum	include/sys/elf.h	/^	uint16_t	e_phnum;$/;"	m	struct:ELF_hdr
+e_phoff	include/sys/elf.h	/^	uint64_t	e_phoff;$/;"	m	struct:ELF_hdr
+e_shentsize	include/sys/elf.h	/^	uint16_t	e_shentsize;$/;"	m	struct:ELF_hdr
+e_shnum	include/sys/elf.h	/^	uint16_t	e_shnum;$/;"	m	struct:ELF_hdr
+e_shoff	include/sys/elf.h	/^	uint64_t	e_shoff;$/;"	m	struct:ELF_hdr
+e_shtrndx	include/sys/elf.h	/^	uint16_t	e_shtrndx;$/;"	m	struct:ELF_hdr
+e_type	include/sys/elf.h	/^	uint16_t	e_type;$/;"	m	struct:ELF_hdr
+e_version	include/sys/elf.h	/^	uint32_t	e_version;$/;"	m	struct:ELF_hdr
+end	include/sys/structs.h	/^	uint64_t	end;$/;"	m	struct:vma
+err_code	include/sys/irq_isr_common.h	/^    uint64_t int_number, err_code;    $/;"	m	struct:regs
+execute	kkavanaanand/bin/shell/shell.c	/^int execute(char **commands,char* envp[]){$/;"	f
+execve	kkavanaanand/libc/execve.c	/^int execve(const char *filename, char *const argv[], char *const envp[])$/;"	f
+execve	libc/execve.c	/^int execve(const char *filename, char *const argv[], char *const envp[])$/;"	f
+exit	kkavanaanand/libc/exit.c	/^void exit(int status)$/;"	f
+exit	libc/exit.c	/^void exit(int status)$/;"	f
+fd	kkavanaanand/include/stdlib.h	/^	int fd;$/;"	m	struct:directory
+first_vma	include/sys/structs.h	/^	struct vma	*first_vma;$/;"	m	struct:mm_struct	typeref:struct:mm_struct::vma
+first_vma	include/sys/structs.h	/^	struct vma* first_vma; \/\/will be later on pointed to by mm_struct 	$/;"	m	struct:PCB	typeref:struct:PCB::vma
+flags	sys/idt.c	/^	unsigned char flags;$/;"	m	struct:idt_entry	file:
+flags_page	include/sys/structs.h	/^	short		flags_page;$/;"	m	struct:page
+flags_vma	include/sys/structs.h	/^	unsigned long	flags_vma; \/\/Understanding the linux kernel book$/;"	m	struct:vma
+fork	kkavanaanand/libc/fork.c	/^pid_t fork()$/;"	f
+fork	libc/fork.c	/^pid_t fork()$/;"	f
+free	kkavanaanand/libc/malloc.c	/^void free(void *ptr) {$/;"	f
+free	libc/malloc.c	/^void free(void *ptr) {$/;"	f
+gdt	sys/gdt.c	/^uint64_t gdt[MAX_GDT] = {$/;"	v
+gdtr	sys/gdt.c	/^static struct gdtr_t gdtr = {$/;"	v	typeref:struct:gdtr_t	file:
+gdtr_t	sys/gdt.c	/^struct gdtr_t {$/;"	s	file:
+getArguments	kkavanaanand/bin/shell/shell.c	/^void getArguments(char *string,char **args){$/;"	f
+getCommands	kkavanaanand/bin/shell/shell.c	/^int getCommands(char *string,char **commands){$/;"	f
+getELF	sys/elf.c	/^uint64_t getELF(char *fileName, struct PCB* process){$/;"	f
+getFile	sys/tarfs.c	/^void * getFile(char * filename){$/;"	f
+getPA	sys/page.c	/^uint64_t getPA(struct page* p)$/;"	f
+getPathsAppendedWithCommand	kkavanaanand/bin/shell/shell.c	/^char** getPathsAppendedWithCommand(char *command, char *envp[]){$/;"	f
+getStrPtrFromPA	sys/page.c	/^struct page * getStrPtrFromPA(void * phy_addr)$/;"	f
+getStrPtrFromVA	sys/page.c	/^struct page * getStrPtrFromVA(void * virt_addr)$/;"	f
+getVA	sys/page.c	/^uint64_t getVA(struct page* p)$/;"	f
+get_mapping	sys/page.c	/^void * get_mapping(void * virt_addr, uint64_t *pml4e)$/;"	f
+getcwd	kkavanaanand/libc/getcwd.c	/^char* getcwd(char *buf, size_t size)$/;"	f
+getcwd	libc/getcwd.c	/^char* getcwd(char *buf, size_t size)$/;"	f
+getdents	kkavanaanand/libc/getdents.c	/^int getdents(unsigned int fd, void *dirp, size_t count)$/;"	f
+getdents	libc/getdents.c	/^int getdents(unsigned int fd, void *dirp, size_t count)$/;"	f
+getpid	kkavanaanand/libc/getpid.c	/^pid_t getpid()$/;"	f
+getpid	libc/getpid.c	/^pid_t getpid()$/;"	f
+getppid	kkavanaanand/libc/getppid.c	/^pid_t getppid()$/;"	f
+getppid	libc/getppid.c	/^pid_t getppid()$/;"	f
+gid	include/sys/tarfs.h	/^	char gid[8];$/;"	m	struct:posix_header_ustar
+gname	include/sys/tarfs.h	/^	char gname[32];$/;"	m	struct:posix_header_ustar
+head	kkavanaanand/libc/malloc.c	/^void *head = NULL;$/;"	v
+head	libc/malloc.c	/^void *head = NULL;$/;"	v
+heap_end	kkavanaanand/libc/malloc.c	/^void * heap_end;$/;"	v
+heap_end	libc/malloc.c	/^void * heap_end;$/;"	v
+idtEntry	sys/idt.c	/^struct idt_entry idtEntry[MAX_IDT];$/;"	v	typeref:struct:idt_entry
+idtPtr	sys/idt.c	/^struct idt_pointer idtPtr;$/;"	v	typeref:struct:idt_pointer
+idt_entry	sys/idt.c	/^struct idt_entry{$/;"	s	file:
+idt_pointer	sys/idt.c	/^struct idt_pointer{$/;"	s	file:
+idt_set_gate	sys/idt.c	/^void idt_set_gate(unsigned char i, uint64_t offset, uint16_t selector, unsigned char flags){$/;"	f
+inb	sys/ports_io.c	/^unsigned char inb(uint16_t port){$/;"	f
+init_idt	sys/idt.c	/^void init_idt()$/;"	f
+init_keyboard	sys/kbd.c	/^void init_keyboard()$/;"	f
+init_pic	sys/idt.c	/^void init_pic(){$/;"	f
+init_timer	sys/timer.c	/^void init_timer(uint32_t frequency){$/;"	f
+inode	newfs/newfs.c	/^struct inode {$/;"	s	file:
+int16_t	include/sys/defs.h	/^typedef          short  int16_t;$/;"	t
+int16_t	kkavanaanand/include/sys/defs.h	/^typedef          short  int16_t;$/;"	t
+int32_t	include/sys/defs.h	/^typedef          int    int32_t;$/;"	t
+int32_t	kkavanaanand/include/sys/defs.h	/^typedef          int    int32_t;$/;"	t
+int64_t	include/sys/defs.h	/^typedef          long   int64_t;$/;"	t
+int64_t	kkavanaanand/include/sys/defs.h	/^typedef          long   int64_t;$/;"	t
+int_number	include/sys/irq_isr_common.h	/^    uint64_t int_number, err_code;    $/;"	m	struct:regs
+invalidate_TLB	sys/page.c	/^void invalidate_TLB(uint64_t *pml4e,void * virt_addr){$/;"	f
+irq0	sys/irq.s	/^irq0:$/;"	l
+irq1	sys/irq.s	/^irq1:$/;"	l
+irq_common	sys/irq.s	/^irq_common:$/;"	l
+irq_handler	sys/irq.c	/^void irq_handler(struct regs r){$/;"	f
+isFree	kkavanaanand/libc/malloc.c	/^        int isFree;$/;"	m	struct:Node	file:
+isFree	libc/malloc.c	/^        int isFree;$/;"	m	struct:Node	file:
+isr0	sys/isr.s	/^isr0:$/;"	l
+isr13	sys/isr.s	/^isr13:$/;"	l
+isr14	sys/isr.s	/^isr14:$/;"	l
+isr_common	sys/isr.s	/^isr_common:$/;"	l
+isr_handler	sys/isr.c	/^void isr_handler(struct regs r){$/;"	f
+kernel_pml4	sys/page.c	/^uint64_t *kernel_pml4;$/;"	v
+keyboard_handler	sys/kbd.c	/^void keyboard_handler(struct regs r)$/;"	f
+limit	sys/idt.c	/^	uint16_t limit;$/;"	m	struct:idt_pointer	file:
+linkname	include/sys/tarfs.h	/^	char linkname[100];$/;"	m	struct:posix_header_ustar
+loadcr3	sys/page.c	/^void loadcr3(void *addr){$/;"	f
+loader_stack	sys/main.c	/^uint32_t* loader_stack;$/;"	v
+lseek	kkavanaanand/libc/lseek.c	/^off_t lseek(int fileds, off_t offset, int whence)$/;"	f
+lseek	libc/lseek.c	/^off_t lseek(int fileds, off_t offset, int whence)$/;"	f
+magic	include/sys/tarfs.h	/^	char magic[6];$/;"	m	struct:posix_header_ustar
+magic	newfs/newfs.c	/^	uint32_t magic;$/;"	m	struct:superblock	file:
+main	bin/hello/hello.c	/^int main(int argc, char* argv[], char* envp[]) {$/;"	f
+main	bin/test/test.c	/^int main(int argc, char* argv[], char* envp[]) {$/;"	f
+main	kkavanaanand/bin/shell/shell.c	/^int main(int argc, char* argv[], char* envp[]){$/;"	f
+main	newfs/newfs.c	/^int main(int argc, char* argv[]) {$/;"	f
+malloc	kkavanaanand/libc/malloc.c	/^void *malloc(unsigned long size) {$/;"	f
+malloc	libc/malloc.c	/^void *malloc(unsigned long size) {$/;"	f
+memPos	printf_backup.c	/^unsigned short *memPos = (unsigned short *) 0xB8000;$/;"	v
+memPos	sys/printf.c	/^unsigned short *memPos = (unsigned short *) 0xFFFFFFFF800B8000;$/;"	v
+memPosSc	printf_backup.c	/^unsigned short *memPosSc = (unsigned short *) 0xB8000;$/;"	v
+memPosSc	sys/printf.c	/^unsigned short *memPosSc = (unsigned short *) 0xFFFFFFFF800B8000;$/;"	v
+memcpy	sys/memcpy.c	/^void *memcpy(void * dest, void *src, size_t n)$/;"	f
+memset	kkavanaanand/libc/memset.c	/^void* memset(void *string, int character, size_t length){$/;"	f
+memset	libc/memset.c	/^void* memset(void *string, int character, size_t length){$/;"	f
+memset	sys/memset.c	/^void* memset(void *string, int character, size_t length){$/;"	f
+mm_struct	include/sys/structs.h	/^struct mm_struct {$/;"	s
+mm_struct_array	sys/page.c	/^struct mm_struct* mm_struct_array; \/\/array of mm_structs$/;"	v	typeref:struct:mm_struct
+mm_struct_free_list	sys/page.c	/^struct mm_struct* mm_struct_free_list; \/\/head node in LL of free mm_structs$/;"	v	typeref:struct:mm_struct
+mode	include/sys/tarfs.h	/^	char mode[8];$/;"	m	struct:posix_header_ustar
+mtime	include/sys/tarfs.h	/^	char mtime[12];$/;"	m	struct:posix_header_ustar
+mystrcat	kkavanaanand/bin/shell/shell.c	/^void mystrcat(char *firstString,char *secondString){$/;"	f
+name	include/sys/tarfs.h	/^	char name[100];$/;"	m	struct:posix_header_ustar
+next	include/sys/structs.h	/^	struct page	*next;$/;"	m	struct:page	typeref:struct:page::page
+next	include/sys/structs.h	/^	struct vma	*next;$/;"	m	struct:vma	typeref:struct:vma::vma
+nextNode	kkavanaanand/libc/malloc.c	/^        struct Node *nextNode;$/;"	m	struct:Node	typeref:struct:Node::Node	file:
+nextNode	libc/malloc.c	/^        struct Node *nextNode;$/;"	m	struct:Node	typeref:struct:Node::Node	file:
+nsec	kkavanaanand/libc/sleep.c	/^    long nsec;$/;"	m	struct:timespec_users	file:
+nsec	libc/sleep.c	/^    long nsec;$/;"	m	struct:timespec_users	file:
+num_pages	include/sys/page.h	8;"	d
+num_vm_areas	include/sys/page.h	9;"	d
+off_t	include/stdlib.h	/^typedef uint64_t off_t;$/;"	t
+off_t	kkavanaanand/include/stdlib.h	/^typedef uint64_t off_t;$/;"	t
+offset_high	sys/idt.c	/^	uint32_t offset_high;$/;"	m	struct:idt_entry	file:
+offset_low	sys/idt.c	/^	uint16_t offset_low;$/;"	m	struct:idt_entry	file:
+offset_middle	sys/idt.c	/^	uint16_t offset_middle;$/;"	m	struct:idt_entry	file:
+open	kkavanaanand/libc/open.c	/^int open(const char *buf, int flags)$/;"	f
+open	libc/open.c	/^int open(const char *buf, int flags)$/;"	f
+opendir	kkavanaanand/libc/dir.c	/^void *opendir(const char *name){$/;"	f
+outb	sys/ports_io.c	/^void outb(uint16_t port,unsigned char val){$/;"	f
+p_align	include/sys/elf.h	/^	uint64_t	p_align;$/;"	m	struct:ELF_P_hdr
+p_filesz	include/sys/elf.h	/^	uint64_t	p_filesz;$/;"	m	struct:ELF_P_hdr
+p_flags	include/sys/elf.h	/^	uint32_t	p_flags;$/;"	m	struct:ELF_P_hdr
+p_memsz	include/sys/elf.h	/^	uint64_t	p_memsz;$/;"	m	struct:ELF_P_hdr
+p_offset	include/sys/elf.h	/^	uint64_t	p_offset;$/;"	m	struct:ELF_P_hdr
+p_paddr	include/sys/elf.h	/^	uint64_t	p_paddr;$/;"	m	struct:ELF_P_hdr
+p_type	include/sys/elf.h	/^	uint32_t	p_type;$/;"	m	struct:ELF_P_hdr
+p_vaddr	include/sys/elf.h	/^	uint64_t	p_vaddr;$/;"	m	struct:ELF_P_hdr
+pad	include/sys/tarfs.h	/^	char pad[12];$/;"	m	struct:posix_header_ustar
+page	include/sys/structs.h	/^struct page {$/;"	s
+page_alloc	sys/page.c	/^struct page* page_alloc()$/;"	f
+page_free_init	sys/page.c	/^void page_free_init()$/;"	f
+page_free_list	sys/page.c	/^struct page* page_free_list; \/\/Head node in linked list of free pages$/;"	v	typeref:struct:page
+page_insert	sys/page.c	/^void page_insert(uint64_t *pml4e, void * virt_addr, struct page * page, int permissions)$/;"	f
+page_release	sys/page.c	/^void page_release(struct page *page){$/;"	f
+page_remove	sys/page.c	/^void page_remove(uint64_t *pml4e,void * virt_addr){$/;"	f
+pages	sys/page.c	/^struct page* pages; \/\/array of page descriptors$/;"	v	typeref:struct:page
+parentProcessID	include/sys/structs.h	/^	int parentProcessID;$/;"	m	struct:PCB
+pc	sys/print_time.c	/^char pc[3];$/;"	v
+pc_glyph	sys/print_glyph.c	/^char *pc_glyph = NULL;$/;"	v
+pdeWalk	sys/page.c	/^uint64_t *pdeWalk(uint64_t *pde,uint64_t v_addr)$/;"	f
+pdpeWalk	sys/page.c	/^uint64_t *pdpeWalk(uint64_t *pdpe,uint64_t v_addr)$/;"	f
+pid_t	include/stdlib.h	/^typedef uint32_t pid_t;$/;"	t
+pid_t	kkavanaanand/include/stdlib.h	/^typedef uint32_t pid_t;$/;"	t
+pipe	kkavanaanand/libc/pipe.c	/^int pipe(int file_desc[2])$/;"	f
+pipe	libc/pipe.c	/^int pipe(int file_desc[2])$/;"	f
+piping	kkavanaanand/bin/shell/shell.c	/^int piping(int pipesCount,char **str[],char* envp[])$/;"	f
+pml4	include/sys/structs.h	/^	uint64_t *pml4; $/;"	m	struct:PCB
+pml4Walk	sys/page.c	/^uint64_t *pml4Walk(uint64_t *pml4e, uint64_t v_addr)$/;"	f
+posix_header_ustar	include/sys/tarfs.h	/^struct posix_header_ustar {$/;"	s
+power	sys/tarfs.c	/^uint64_t power(uint64_t x,uint64_t n)		\/\/ Change power function$/;"	f
+prefix	include/sys/tarfs.h	/^	char prefix[155];$/;"	m	struct:posix_header_ustar
+prev	include/sys/structs.h	/^	struct page	*prev;$/;"	m	struct:page	typeref:struct:page::page
+prev	include/sys/structs.h	/^	struct vma	*prev;$/;"	m	struct:vma	typeref:struct:vma::vma
+print_glyph	sys/print_glyph.c	/^void print_glyph(const char *format, ...) {$/;"	f
+print_time	sys/print_time.c	/^void print_time(const char *format, ...) {$/;"	f
+printf	kkavanaanand/libc/printf.c	/^int printf(const char *format, ...) {$/;"	f
+printf	libc/printf.c	/^int printf(const char *format, ...) {$/;"	f
+printf	printf_backup.c	/^void printf(const char *format, ...) {$/;"	f
+printf	sys/printf.c	/^void printf(const char *format, ...) {$/;"	f
+processID	include/sys/structs.h	/^	int processID;$/;"	m	struct:PCB
+ptr	kkavanaanand/libc/printf.c	/^char ptr[MAXIMUM_SIZE];$/;"	v
+ptr	libc/printf.c	/^char ptr[MAXIMUM_SIZE];$/;"	v
+ptr	printf_backup.c	/^char ptr[MAXIMUM_SIZE];$/;"	v
+ptr	sys/printf.c	/^char ptr[MAXIMUM_SIZE];$/;"	v
+r10	include/sys/irq_isr_common.h	/^	uint64_t r15, r14, r13, r12, r11, r10, r9, r8; $/;"	m	struct:regs
+r10	include/sys/structs.h	/^	uint64_t rax, rbx, rcx, rdx, rsi, rdi, rsp, rbp, rip, rflags, r8, r9, r10, r11, r12, r13, r14, r15;$/;"	m	struct:Regs
+r11	include/sys/irq_isr_common.h	/^	uint64_t r15, r14, r13, r12, r11, r10, r9, r8; $/;"	m	struct:regs
+r11	include/sys/structs.h	/^	uint64_t rax, rbx, rcx, rdx, rsi, rdi, rsp, rbp, rip, rflags, r8, r9, r10, r11, r12, r13, r14, r15;$/;"	m	struct:Regs
+r12	include/sys/irq_isr_common.h	/^	uint64_t r15, r14, r13, r12, r11, r10, r9, r8; $/;"	m	struct:regs
+r12	include/sys/structs.h	/^	uint64_t rax, rbx, rcx, rdx, rsi, rdi, rsp, rbp, rip, rflags, r8, r9, r10, r11, r12, r13, r14, r15;$/;"	m	struct:Regs
+r13	include/sys/irq_isr_common.h	/^	uint64_t r15, r14, r13, r12, r11, r10, r9, r8; $/;"	m	struct:regs
+r13	include/sys/structs.h	/^	uint64_t rax, rbx, rcx, rdx, rsi, rdi, rsp, rbp, rip, rflags, r8, r9, r10, r11, r12, r13, r14, r15;$/;"	m	struct:Regs
+r14	include/sys/irq_isr_common.h	/^	uint64_t r15, r14, r13, r12, r11, r10, r9, r8; $/;"	m	struct:regs
+r14	include/sys/structs.h	/^	uint64_t rax, rbx, rcx, rdx, rsi, rdi, rsp, rbp, rip, rflags, r8, r9, r10, r11, r12, r13, r14, r15;$/;"	m	struct:Regs
+r15	include/sys/irq_isr_common.h	/^	uint64_t r15, r14, r13, r12, r11, r10, r9, r8; $/;"	m	struct:regs
+r15	include/sys/structs.h	/^	uint64_t rax, rbx, rcx, rdx, rsi, rdi, rsp, rbp, rip, rflags, r8, r9, r10, r11, r12, r13, r14, r15;$/;"	m	struct:Regs
+r8	include/sys/irq_isr_common.h	/^	uint64_t r15, r14, r13, r12, r11, r10, r9, r8; $/;"	m	struct:regs
+r8	include/sys/structs.h	/^	uint64_t rax, rbx, rcx, rdx, rsi, rdi, rsp, rbp, rip, rflags, r8, r9, r10, r11, r12, r13, r14, r15;$/;"	m	struct:Regs
+r9	include/sys/irq_isr_common.h	/^	uint64_t r15, r14, r13, r12, r11, r10, r9, r8; $/;"	m	struct:regs
+r9	include/sys/structs.h	/^	uint64_t rax, rbx, rcx, rdx, rsi, rdi, rsp, rbp, rip, rflags, r8, r9, r10, r11, r12, r13, r14, r15;$/;"	m	struct:Regs
+rax	include/sys/irq_isr_common.h	/^	uint64_t rdi, rsi, rbp, rdx, rcx, rbx, rax;$/;"	m	struct:regs
+rax	include/sys/structs.h	/^	uint64_t rax, rbx, rcx, rdx, rsi, rdi, rsp, rbp, rip, rflags, r8, r9, r10, r11, r12, r13, r14, r15;$/;"	m	struct:Regs
+rbp	include/sys/irq_isr_common.h	/^	uint64_t rdi, rsi, rbp, rdx, rcx, rbx, rax;$/;"	m	struct:regs
+rbp	include/sys/structs.h	/^	uint64_t rax, rbx, rcx, rdx, rsi, rdi, rsp, rbp, rip, rflags, r8, r9, r10, r11, r12, r13, r14, r15;$/;"	m	struct:Regs
+rbx	include/sys/irq_isr_common.h	/^	uint64_t rdi, rsi, rbp, rdx, rcx, rbx, rax;$/;"	m	struct:regs
+rbx	include/sys/structs.h	/^	uint64_t rax, rbx, rcx, rdx, rsi, rdi, rsp, rbp, rip, rflags, r8, r9, r10, r11, r12, r13, r14, r15;$/;"	m	struct:Regs
+rcx	include/sys/irq_isr_common.h	/^	uint64_t rdi, rsi, rbp, rdx, rcx, rbx, rax;$/;"	m	struct:regs
+rcx	include/sys/structs.h	/^	uint64_t rax, rbx, rcx, rdx, rsi, rdi, rsp, rbp, rip, rflags, r8, r9, r10, r11, r12, r13, r14, r15;$/;"	m	struct:Regs
+rdi	include/sys/irq_isr_common.h	/^	uint64_t rdi, rsi, rbp, rdx, rcx, rbx, rax;$/;"	m	struct:regs
+rdi	include/sys/structs.h	/^	uint64_t rax, rbx, rcx, rdx, rsi, rdi, rsp, rbp, rip, rflags, r8, r9, r10, r11, r12, r13, r14, r15;$/;"	m	struct:Regs
+rdx	include/sys/irq_isr_common.h	/^	uint64_t rdi, rsi, rbp, rdx, rcx, rbx, rax;$/;"	m	struct:regs
+rdx	include/sys/structs.h	/^	uint64_t rax, rbx, rcx, rdx, rsi, rdi, rsp, rbp, rip, rflags, r8, r9, r10, r11, r12, r13, r14, r15;$/;"	m	struct:Regs
+read	kkavanaanand/libc/read.c	/^ssize_t read(int fd, void *buf, size_t count)$/;"	f
+read	libc/read.c	/^ssize_t read(int fd, void *buf, size_t count)$/;"	f
+readcr2	sys/page.c	/^void * readcr2(){$/;"	f
+readcr3	sys/page.c	/^void * readcr3(){$/;"	f
+readdir	kkavanaanand/libc/dir.c	/^struct dirent *readdir(void *dir){$/;"	f
+ref_count	include/sys/structs.h	/^	int		ref_count;$/;"	m	struct:page
+refcount	newfs/newfs.c	/^	uint64_t refcount;$/;"	m	struct:inode	file:
+region_mapping	sys/page.c	/^void region_mapping(void * virt_addr, void * phy_addr, size_t size, int permissions)$/;"	f
+regs	include/sys/irq_isr_common.h	/^struct regs$/;"	s
+regs	include/sys/structs.h	/^	struct Regs regs;$/;"	m	struct:PCB	typeref:struct:PCB::Regs
+reload_gdt	sys/gdt.c	/^void reload_gdt() {$/;"	f
+reserved	include/sys/gdt.h	/^	uint32_t reserved;$/;"	m	struct:tss_t
+rflags	include/sys/irq_isr_common.h	/^    uint64_t rip, cs, rflags, userrsp, ss;   $/;"	m	struct:regs
+rflags	include/sys/structs.h	/^	uint64_t rax, rbx, rcx, rdx, rsi, rdi, rsp, rbp, rip, rflags, r8, r9, r10, r11, r12, r13, r14, r15;$/;"	m	struct:Regs
+rip	include/sys/irq_isr_common.h	/^    uint64_t rip, cs, rflags, userrsp, ss;   $/;"	m	struct:regs
+rip	include/sys/structs.h	/^	uint64_t rax, rbx, rcx, rdx, rsi, rdi, rsp, rbp, rip, rflags, r8, r9, r10, r11, r12, r13, r14, r15;$/;"	m	struct:Regs
+rsi	include/sys/irq_isr_common.h	/^	uint64_t rdi, rsi, rbp, rdx, rcx, rbx, rax;$/;"	m	struct:regs
+rsi	include/sys/structs.h	/^	uint64_t rax, rbx, rcx, rdx, rsi, rdi, rsp, rbp, rip, rflags, r8, r9, r10, r11, r12, r13, r14, r15;$/;"	m	struct:Regs
+rsp	include/sys/structs.h	/^	uint64_t rax, rbx, rcx, rdx, rsi, rdi, rsp, rbp, rip, rflags, r8, r9, r10, r11, r12, r13, r14, r15;$/;"	m	struct:Regs
+rsp0	include/sys/gdt.h	/^	uint64_t rsp0;$/;"	m	struct:tss_t
+sbrk	kkavanaanand/libc/malloc.c	/^void * sbrk(int increment)$/;"	f
+sbrk	libc/malloc.c	/^void * sbrk(int increment)$/;"	f
+scancode_to_ascii	sys/kbd.c	/^static char scancode_to_ascii(int scancode)$/;"	f	file:
+scanf	kkavanaanand/libc/scanf.c	/^int scanf(const char *format, ...) {$/;"	f
+scanf	libc/scanf.c	/^int scanf(const char *format, ...) {$/;"	f
+sd_dpl	sys/gdt.c	/^	uint64_t sd_dpl:2;     \/* segment descriptor priority level *\/$/;"	m	struct:sys_segment_descriptor	file:
+sd_gran	sys/gdt.c	/^	uint64_t sd_gran:1;    \/* limit granularity (byte\/page) *\/$/;"	m	struct:sys_segment_descriptor	file:
+sd_hibase	sys/gdt.c	/^	uint64_t sd_hibase:40; \/* segment base address (msb) *\/$/;"	m	struct:sys_segment_descriptor	file:
+sd_hilimit	sys/gdt.c	/^	uint64_t sd_hilimit:4; \/* segment extent (msb) *\/$/;"	m	struct:sys_segment_descriptor	file:
+sd_lobase	sys/gdt.c	/^	uint64_t sd_lobase:24; \/* segment base address (lsb) *\/$/;"	m	struct:sys_segment_descriptor	file:
+sd_lolimit	sys/gdt.c	/^	uint64_t sd_lolimit:16;\/* segment extent (lsb) *\/$/;"	m	struct:sys_segment_descriptor	file:
+sd_p	sys/gdt.c	/^	uint64_t sd_p:1;       \/* segment descriptor present *\/$/;"	m	struct:sys_segment_descriptor	file:
+sd_type	sys/gdt.c	/^	uint64_t sd_type:5;    \/* segment type *\/$/;"	m	struct:sys_segment_descriptor	file:
+sd_xx1	sys/gdt.c	/^	uint64_t sd_xx1:3;     \/* avl, long and def32 (not used) *\/$/;"	m	struct:sys_segment_descriptor	file:
+sd_xx2	sys/gdt.c	/^	uint64_t sd_xx2:8;     \/* reserved *\/$/;"	m	struct:sys_segment_descriptor	file:
+sd_xx3	sys/gdt.c	/^	uint64_t sd_xx3:19;    \/* reserved *\/$/;"	m	struct:sys_segment_descriptor	file:
+sd_zero	sys/gdt.c	/^	uint64_t sd_zero:5;    \/* must be zero *\/$/;"	m	struct:sys_segment_descriptor	file:
+sec	kkavanaanand/libc/sleep.c	/^    signed long sec;$/;"	m	struct:timespec_users	file:
+sec	libc/sleep.c	/^    signed long sec;$/;"	m	struct:timespec_users	file:
+selector	sys/idt.c	/^	uint16_t selector;$/;"	m	struct:idt_entry	file:
+setPath	kkavanaanand/bin/shell/shell.c	/^void setPath(char *path, char* envp[]){$/;"	f
+setup_tss	sys/gdt.c	/^void setup_tss() {$/;"	f
+sh_addr	include/sys/elf.h	/^	uint64_t	sh_addr;$/;"	m	struct:ELF_S_hdr
+sh_addralign	include/sys/elf.h	/^	uint64_t	sh_addralign;$/;"	m	struct:ELF_S_hdr
+sh_entsize	include/sys/elf.h	/^	uint64_t	sh_entsize;$/;"	m	struct:ELF_S_hdr
+sh_flags	include/sys/elf.h	/^	uint64_t	sh_flags;$/;"	m	struct:ELF_S_hdr
+sh_info	include/sys/elf.h	/^	uint32_t	sh_info;$/;"	m	struct:ELF_S_hdr
+sh_link	include/sys/elf.h	/^	uint32_t	sh_link;$/;"	m	struct:ELF_S_hdr
+sh_name	include/sys/elf.h	/^	uint32_t	sh_name;$/;"	m	struct:ELF_S_hdr
+sh_offset	include/sys/elf.h	/^	uint64_t	sh_offset;$/;"	m	struct:ELF_S_hdr
+sh_size	include/sys/elf.h	/^	uint64_t	sh_size;$/;"	m	struct:ELF_S_hdr
+sh_type	include/sys/elf.h	/^	uint32_t	sh_type;$/;"	m	struct:ELF_S_hdr
+shift_down	sys/kbd.c	/^int shift_down;$/;"	v
+size	include/sys/tarfs.h	/^	char size[12];$/;"	m	struct:posix_header_ustar
+size	kkavanaanand/libc/malloc.c	/^        unsigned long size;$/;"	m	struct:Node	file:
+size	libc/malloc.c	/^        unsigned long size;$/;"	m	struct:Node	file:
+size	sys/gdt.c	/^	uint16_t size;$/;"	m	struct:gdtr_t	file:
+size_t	include/stdlib.h	/^typedef uint64_t size_t;$/;"	t
+size_t	kkavanaanand/include/stdlib.h	/^typedef uint64_t size_t;$/;"	t
+sleep	kkavanaanand/libc/sleep.c	/^unsigned int sleep(unsigned int seconds)$/;"	f
+sleep	libc/sleep.c	/^unsigned int sleep(unsigned int seconds)$/;"	f
+spaceNeeded	kkavanaanand/libc/malloc.c	/^struct Node *spaceNeeded(struct Node* last, unsigned long size) {$/;"	f
+spaceNeeded	libc/malloc.c	/^struct Node *spaceNeeded(struct Node* last, unsigned long size) {$/;"	f
+ss	include/sys/irq_isr_common.h	/^    uint64_t rip, cs, rflags, userrsp, ss;   $/;"	m	struct:regs
+ssize_t	include/stdlib.h	/^typedef int64_t ssize_t;$/;"	t
+ssize_t	kkavanaanand/include/stdlib.h	/^typedef int64_t ssize_t;$/;"	t
+st_info	include/sys/elf.h	/^	unsigned char	st_info;$/;"	m	struct:ELF_Str
+st_name	include/sys/elf.h	/^	uint32_t	st_name;$/;"	m	struct:ELF_Str
+st_other	include/sys/elf.h	/^	unsigned char	st_other;$/;"	m	struct:ELF_Str
+st_shndx	include/sys/elf.h	/^	uint16_t	st_shndx;$/;"	m	struct:ELF_Str
+st_size	include/sys/elf.h	/^	uint64_t	st_size;$/;"	m	struct:ELF_Str
+st_value	include/sys/elf.h	/^	uint64_t	st_value;$/;"	m	struct:ELF_Str
+stack	sys/main.c	/^char stack[INITIAL_STACK_SIZE];$/;"	v
+start	include/sys/structs.h	/^	uint64_t	start; $/;"	m	struct:vma
+start	sys/main.c	/^void start(uint32_t* modulep, void* physbase, void* physfree)$/;"	f
+strcmp	kkavanaanand/libc/strcmp.c	/^int strcmp(const char *firstString,const char *secondString){$/;"	f
+strcmp	libc/strcmp.c	/^int strcmp(const char *firstString,const char *secondString){$/;"	f
+strcmp	sys/strcmp.c	/^int strcmp(const char *firstString,const char *secondString){$/;"	f
+strcpy	kkavanaanand/libc/strcpy.c	/^char* strcpy(char *destinationString,const char *sourceString){$/;"	f
+strcpy	libc/strcpy.c	/^char* strcpy(char *destinationString,const char *sourceString){$/;"	f
+strcpy	sys/strcpy.c	/^char* strcpy(char *destinationString,const char *sourceString){$/;"	f
+strlen	kkavanaanand/libc/strlen.c	/^size_t strlen(const char *string){$/;"	f
+strlen	libc/strlen.c	/^size_t strlen(const char *string){$/;"	f
+strncmp	kkavanaanand/libc/strncmp.c	/^int strncmp(const char *firstString,const char *secondString,size_t n){$/;"	f
+strncmp	libc/strncmp.c	/^int strncmp(const char *firstString,const char *secondString,size_t n){$/;"	f
+strncpy	kkavanaanand/libc/strncpy.c	/^char* strncpy(char *destinationString,const char *sourceString,int n){$/;"	f
+strncpy	libc/strncpy.c	/^char* strncpy(char *destinationString,const char *sourceString,int n){$/;"	f
+strstr	kkavanaanand/libc/strstr.c	/^char* strstr(char *string,char *substring){$/;"	f
+strstr	libc/strstr.c	/^char* strstr(char *string,char *substring){$/;"	f
+superblock	newfs/newfs.c	/^struct superblock {$/;"	s	file:
+switch_to_user_space	sys/process.c	/^void switch_to_user_space(uint64_t entry)$/;"	f
+sys_segment_descriptor	sys/gdt.c	/^struct sys_segment_descriptor {$/;"	s	file:
+syscall_0	include/syscall.h	/^static __inline int64_t syscall_0(uint64_t n) {$/;"	f
+syscall_0	kkavanaanand/include/syscall.h	/^static __inline uint64_t syscall_0(uint64_t n) {$/;"	f
+syscall_1	include/syscall.h	/^static __inline int64_t syscall_1(uint64_t n, uint64_t a1) {$/;"	f
+syscall_1	kkavanaanand/include/syscall.h	/^static __inline uint64_t syscall_1(uint64_t n, uint64_t a1) {$/;"	f
+syscall_2	include/syscall.h	/^static __inline int64_t syscall_2(uint64_t n, uint64_t a1, uint64_t a2) {$/;"	f
+syscall_2	kkavanaanand/include/syscall.h	/^static __inline uint64_t syscall_2(uint64_t n, uint64_t a1, uint64_t a2) {$/;"	f
+syscall_3	include/syscall.h	/^static __inline int64_t syscall_3(uint64_t n, uint64_t a1, uint64_t a2, uint64_t a3) {$/;"	f
+syscall_3	kkavanaanand/include/syscall.h	/^static __inline uint64_t syscall_3(uint64_t n, uint64_t a1, uint64_t a2, uint64_t a3) {$/;"	f
+testMapping	sys/page.c	/^void testMapping(){$/;"	f
+ticks	sys/timer.c	/^size_t ticks = 0;$/;"	v
+timer_handler	sys/timer.c	/^void timer_handler(struct regs r){$/;"	f
+timespec_users	kkavanaanand/libc/sleep.c	/^struct timespec_users$/;"	s	file:
+timespec_users	libc/sleep.c	/^struct timespec_users$/;"	s	file:
+tss	sys/main.c	/^struct tss_t tss;$/;"	v	typeref:struct:tss_t
+tss_t	include/sys/gdt.h	/^struct tss_t {$/;"	s
+typeflag	include/sys/tarfs.h	/^	char typeflag[1];$/;"	m	struct:posix_header_ustar
+uid	include/sys/tarfs.h	/^	char uid[8];$/;"	m	struct:posix_header_ustar
+uint16_t	include/sys/defs.h	/^typedef unsigned short uint16_t;$/;"	t
+uint16_t	kkavanaanand/include/sys/defs.h	/^typedef unsigned short uint16_t;$/;"	t
+uint32_t	include/sys/defs.h	/^typedef unsigned int   uint32_t;$/;"	t
+uint32_t	kkavanaanand/include/sys/defs.h	/^typedef unsigned int   uint32_t;$/;"	t
+uint64_t	include/sys/defs.h	/^typedef unsigned long  uint64_t;$/;"	t
+uint64_t	kkavanaanand/include/sys/defs.h	/^typedef unsigned long  uint64_t;$/;"	t
+uname	include/sys/tarfs.h	/^	char uname[32];$/;"	m	struct:posix_header_ustar
+unused	include/sys/gdt.h	/^	uint32_t unused[11];$/;"	m	struct:tss_t
+unused	sys/idt.c	/^	uint32_t unused;$/;"	m	struct:idt_entry	file:
+userrsp	include/sys/irq_isr_common.h	/^    uint64_t rip, cs, rflags, userrsp, ss;   $/;"	m	struct:regs
+va_arg	include/stdarg.h	5;"	d
+va_arg	kkavanaanand/include/stdarg.h	5;"	d
+va_copy	include/stdarg.h	7;"	d
+va_copy	kkavanaanand/include/stdarg.h	7;"	d
+va_end	include/stdarg.h	6;"	d
+va_end	kkavanaanand/include/stdarg.h	6;"	d
+va_list	include/stdarg.h	/^typedef __builtin_va_list va_list;$/;"	t
+va_list	kkavanaanand/include/stdarg.h	/^typedef __builtin_va_list va_list;$/;"	t
+va_start	include/stdarg.h	4;"	d
+va_start	kkavanaanand/include/stdarg.h	4;"	d
+version	include/sys/tarfs.h	/^	char version[2];$/;"	m	struct:posix_header_ustar
+vm_init	sys/page.c	/^void vm_init()$/;"	f
+vma	include/sys/structs.h	/^struct vma {$/;"	s
+vma_alloc	sys/page.c	/^struct vma* vma_alloc()$/;"	f
+vma_array	sys/page.c	/^struct vma* vma_array; \/\/array of vma structs$/;"	v	typeref:struct:vma
+vma_free_init	sys/page.c	/^void vma_free_init()$/;"	f
+vma_free_list	sys/page.c	/^struct vma * vma_free_list; \/\/Allocate vma s from here, head node in LL of free vma s $/;"	v	typeref:struct:vma
+waitpid	kkavanaanand/libc/waitpid.c	/^pid_t waitpid(pid_t pid, int *status, int options)$/;"	f
+waitpid	libc/waitpid.c	/^pid_t waitpid(pid_t pid, int *status, int options)$/;"	f
+write	kkavanaanand/libc/write.c	/^ssize_t write(int fd, const void *buf, size_t size)$/;"	f
+write	libc/write.c	/^ssize_t write(int fd, const void *buf, size_t size)$/;"	f
+write_glyph	sys/print_glyph.c	/^void write_glyph(volatile char *outTh,volatile int *xPosition)$/;"	f
+write_time	sys/print_time.c	/^void write_time(volatile char *outTh,volatile int *xPosition)$/;"	f
+writek	printf_backup.c	/^void writek(volatile char *outTh)$/;"	f
+writek	sys/printf.c	/^void writek(volatile char *outTh)$/;"	f
+xPos	printf_backup.c	/^volatile int xPos = 0;$/;"	v
+xPos	sys/printf.c	/^volatile int xPos = 0;$/;"	v
+yPos	printf_backup.c	/^volatile int yPos = 0;$/;"	v
+yPos	sys/printf.c	/^volatile int yPos = 0;$/;"	v
+yPosition	sys/print_time.c	/^int yPosition = 23;$/;"	v
+yPositionGlyph	sys/print_glyph.c	/^int yPositionGlyph = 23;$/;"	v
